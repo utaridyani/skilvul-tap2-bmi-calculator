@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* RESET STYLE */
+* {
+    margin: 0px;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+  }
+
+  /* JUDUL */
+  #title h1{
+    margin: 100px 100px 0px 100px;
+    text-align: center;
+  }
+
+  #title p{
+    margin: 20px 100px 20px 100px;
+    text-align: center;
+  }
+
+  /* FORM INPUT */
+  label{
+    display:inline-block;
+    margin: 30px 400px 10px 400px;
+  }
+
+  input{
+    margin: 0px 400px
+  }
+
+  /* BUTTON */
+  button{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 400px;
+    padding: 10px;
+    background-color: rgb(76, 76, 222);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+
+  button:hover{
+    background-color:#002ead;
+    transition: 0.7s;
+  }
+
+  #hasil{
+    margin-top: 100px;
+    margin-left: 400px;
+  }
+
