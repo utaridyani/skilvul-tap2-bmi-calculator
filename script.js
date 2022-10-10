@@ -2,6 +2,7 @@ let inputWeight = document.getElementById("weight")
 let inputHeight = document.getElementById("height")
 let form = document.querySelector("#form")
 let hasil = document.getElementById("hasil")
+let btnReset = document.getElementById("btnReset")
 let hasilBMI
 
 function validasi(){
@@ -35,5 +36,13 @@ form.addEventListener("submit", (event) => {
     }
 
 
+})
+
+form.addEventListener("reset", (event) => {
+    event.preventDefault()
+
+    inputHeight.value = ""
+    inputWeight.value = ""
+    hasil.innerHTML = ""
 })
 

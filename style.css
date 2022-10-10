@@ -32,7 +32,7 @@
   }
 
   /* BUTTON */
-  button{
+  #btnSubmit{
     position: absolute;
     margin-top: 30px;
     margin-left: 400px;
@@ -43,8 +43,24 @@
     border-radius: 5px;
   }
 
-  button:hover{
+  #btnReset{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 520px;
+    padding: 10px;
+    background-color: rgb(228, 53, 53);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+
+  #btnSubmit:hover{
     background-color:#002ead;
+    transition: 0.7s;
+  }
+
+  #btnReset:hover{
+    background-color:rgb(238, 11, 11);
     transition: 0.7s;
   }
 
